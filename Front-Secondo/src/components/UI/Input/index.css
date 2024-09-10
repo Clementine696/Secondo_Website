@@ -1,0 +1,38 @@
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--Des-color);
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--Des-color);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--Des-color);
+}
+
+.text-field-default {
+    display: flex;
+    height: 60px;
+    padding: 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid var(--Outline-color);
+}
+
+.text-field-default:focus-within {
+    border: 1px solid var(--Poutline-color);
+}
+
+.text-field-default:hover {
+    border: 1px solid var(--Poutline-color);
+}
+
+.text-field-default:disabled {
+    color: 1px solid var(--OutlineVariant-color);
+}
+
+.text-field-errored {
+    border: 1px solid var(--Error-color);
+}

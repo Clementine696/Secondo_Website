@@ -1,0 +1,28 @@
+.seller-rate-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.seller-rate-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.rate-star > span {
+    cursor: pointer;
+}
+
+.star {
+    color: var(--OutlineVariant-color);
+    font-size: 32px;
+}
+
+.selected {
+    color: var(--Shover-color);
+}

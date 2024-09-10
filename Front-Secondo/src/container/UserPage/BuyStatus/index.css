@@ -1,0 +1,188 @@
+.search-container-filter {
+  width: 326px;
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+
+.search-bar-filter {
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 40px;
+  border-color: var(--Toutline-color);
+  &:focus {
+    border: 1px solid var(--Toutline-color);
+    -webkit-box-shadow: inset 0 1px 1px var(--Tcontainer-color), 0 0 8px var(--Tcontainer-color); box-shadow: inset 0 1px 1px var(--Tcontainer-color), 0 0 8px var(--Tcontainer-color);
+    transition: 0.35s ease;
+    &::-webkit-input-placeholder {
+      transition: opacity 0.45s ease;
+      opacity: 0;
+    }
+    &::-moz-placeholder {
+      transition: opacity 0.45s ease;
+      opacity: 0;
+    }
+    &:-ms-placeholder {
+      transition: opacity 0.45s ease;
+      opacity: 0;
+    }
+  }
+}
+
+.search-icon-filter{
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 20%;
+  right: 16px;
+  ::placeholder {
+      color: var(--Toutline-color);
+  }
+}
+
+.search-add-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.add-product-user-page {
+  width: auto;
+  text-decoration: none;
+}
+
+.add-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.header-table-data {
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 8px 16px;
+gap: 16px;
+align-items: stretch;
+border-radius: 12px;
+background-color: var(--Scontainer-color);
+}
+
+.background-data-table {
+width: 100%;
+height: auto;
+display: flex;
+padding: 16px;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+border-radius: 16px;
+background-color: var(--SurfaceBright-color);
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+}
+
+.header-item {
+display: flex;
+}
+
+.data-table {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 16px;
+width: 100%;
+padding: 8px 16px;
+align-self: stretch;
+background-color: var(--SurfaceBright-color);
+}
+
+.product-name-desc-status, .product-status-time {
+display: flex;
+width: 100%;
+flex-direction: column;
+gap: 8px;
+}
+
+p.date-col {
+min-width: 86px;
+}
+
+div.desc-col, p.desc-col {
+display: flex;
+min-width: 318px;
+flex-direction: row;
+}
+
+div.status-col, p.status-col {
+min-width: 200px;
+}
+
+p.status-time {
+color: var(--Soutline-color);
+}
+
+p.point-col {
+min-width: 80px;
+}
+
+p.price-col {
+min-width: 104px;
+}
+
+div.func-col, p.func-col {
+min-width: 120px;
+}
+
+@media (min-width: 1500px) {
+div.desc-col, p.desc-col {
+  min-width: 30%;
+}
+p.date-col {
+  min-width: 142px;
+}
+div.status-col, p.status-col {
+  min-width: 286px;
+}
+p.point-col {
+  display: flex;
+  min-width: 5%;
+  align-self: stretch;
+}
+p.price-col {
+  display: flex;
+  min-width: 5%;
+  align-self: stretch;
+}
+div.func-col, p.func-col {
+  min-width: 20%;
+}
+}
+
+.func-col {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+
+.func-icon {
+height: 24px;
+width: 24px;
+}
+
+.touch-point {
+display: flex;
+align-items: center;
+width: 40px;
+height: 40px;
+}
+
+img.pic-product-table {
+width: 50px;
+height: 50px;
+border-radius: 8px;
+}

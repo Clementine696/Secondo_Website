@@ -1,0 +1,53 @@
+.modal-container-donate {
+    margin-top: 112px;
+    display: flex;
+    width: 937px;
+    height: fit-content;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 24px;
+    border: 1px solid var(--OutlineVariant-color);
+    background-color: var(--White-color);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-change {
+    color: var(--PfixedVariant-color);
+}
+
+.donate-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.form-donate {
+    align-self: stretch;
+}
+
+.input-donate {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.input-donate-field {
+    display: flex;
+    align-self: stretch;
+}
+
+.donate-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}

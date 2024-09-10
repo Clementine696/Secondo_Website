@@ -1,0 +1,133 @@
+.setting-title-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.my-address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+button.f-btn,
+.s-btn {
+  width: auto;
+}
+
+.address-item.select {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: var(--Scontainer-color);
+}
+
+.address-item {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+}
+
+.text-address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.img-card-cardid {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.card-name,
+.card-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+button.d-btn {
+  color: var(--Error-color) !important;
+  background-color: var(--SurfaceBright-color);
+}
+
+.btn-setting-address-group {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-pic {
+  display: flex;
+  width: 72px;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+}
+
+.setting-tab-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  /* align-self: stretch; */
+}
+
+.setting-add-edit-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  width: 100%;
+}
+
+.setting-add-address {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--Etc-Surface-Bright, #f9f9ff);
+  min-height: 424px;
+  /* height: 1000px; */
+}
+
+.setting-add-address-form {
+  width: 100%;
+}
+
+.setting-add-address-form-row {
+  gap: 10px;
+}
+
+.setting-add-address-button {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  gap: 10px;
+  /* align-self: stretch; */
+}

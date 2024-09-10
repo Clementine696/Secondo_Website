@@ -1,0 +1,34 @@
+.shipping-check {
+    display: flex;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.shipping-icon-title-desc {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.oeder-status {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    color: var(--Default-text);
+    border-radius: 50%;
+    border: 1px solid var(--Outline-color)
+}
+
+.shipping-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--Default-text);
+}
+
+.shipping-desc {
+    color: var(--Shover-color);
+}

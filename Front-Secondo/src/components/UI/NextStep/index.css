@@ -1,0 +1,16 @@
+.next-step {
+    display: flex;
+    margin-bottom: 8px;
+    width: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.circle-next-step {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--OutlineVariant-color);
+}

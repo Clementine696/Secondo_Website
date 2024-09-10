@@ -1,0 +1,56 @@
+.modal-container-sale {
+    margin-top: 112px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid var(--OutlineVariant-color);
+    background-color: var(--White-color);
+}
+
+.close-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    cursor: pointer;
+}
+
+.cancel-icon {
+    width: 24px;
+    height: 24px;
+}
+
+img.tag-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.model-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.button-pop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.link-to {
+    text-decoration: none;
+    color: var(--White-color);
+}
+
+.link-to2 {
+    text-decoration: none;
+    color: var(--SfixedVariant-color);
+}

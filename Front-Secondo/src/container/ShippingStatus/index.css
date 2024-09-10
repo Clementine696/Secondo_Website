@@ -1,0 +1,178 @@
+.shipping-bg-page {
+    display: flex;
+    padding: 32px 148px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.shipping-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    flex-direction: row;
+}
+
+.shipping-left-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.small-img {
+    height: 116px;
+    width: 50%;
+    border-radius: 16px;
+}
+
+.shipping-button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.group-button-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.group-button-2 {
+    display: flex;
+    width: fit-content;
+}
+
+.shipping-btn {
+    width: 284px;
+}
+
+.shipping-right-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.shipping-order-seller-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.shipping-seller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch; 
+}
+
+.shipping-seller-profile-name {
+    display: flex;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.shipping-seller-profile {
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.shipping-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.shipping-status {
+    color: var(--Shover-color);
+}
+
+.shipping-product-detail-bg {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 24px;
+    background-color: var(--SurfaceBright-color);
+}
+
+.outline {
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.inline {
+    width: 100%;
+    height: 1px;
+    background-color: var(--OutlineVariant-color);
+}
+
+.shipping-very-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.shipping-product-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.detail1 {
+    width: 100px;
+    color: var(--Outline-color);
+}
+
+.detail2 {
+    width: 200px;
+}
+
+.product-price, .ship-price, .totla-product-ship-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.sell-status-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 1px solid var(--OutlineVariant-color);
+}
+
+.sell-status-title {
+    color: var(--Default-text);
+    display: flex;
+    padding: 16px 16px 0px 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.shipping-status-sender {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    padding: 0 16px 16px 16px;
+}

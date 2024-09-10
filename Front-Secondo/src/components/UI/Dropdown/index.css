@@ -1,0 +1,9 @@
+.sort-button {
+    display: flex;
+    padding: 12px 16px 12px 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--OutlineVariant-color);
+    background-color: var(--White-color);
+}

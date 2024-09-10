@@ -1,0 +1,14 @@
+.pathway-group {
+    display: flex;
+}
+
+.pathway-group-distance {
+    display: flex;
+    gap: 16px;
+}
+
+.pathway-group-text {
+    display: flex;
+    text-decoration: none;
+    color: var(--OutlineVariant-color);
+}

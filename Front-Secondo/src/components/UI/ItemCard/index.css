@@ -1,0 +1,187 @@
+.frame-card-item {
+  display: flex;
+  width: 266px;
+  height: 367px;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  border-radius: 16px;
+  border: 1px solid var(--OutlineVariant-color);
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+.frame-card-item.tp-transform {
+  transition-property: box-shadow,;
+}
+
+.frame-card-item:is(:hover, :focus) {
+  box-shadow: 0 0 0 1.5px var(--Ssecondary-color), 4px 4px 0 0 var(--Ssecondary-color);
+}
+
+.frame-out-icon-favorite {
+  position: absolute;
+  display: inline-flex;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+  padding: 4px;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.btn-fav-card-product {
+  position: relative;
+  display: inline-flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  background: #ffffff00;
+}
+
+.frame-out-icon-favorite:hover {
+  background-color: var(--White-color);
+}
+
+.btn-fav-icon-card-product {
+  width: 24px;
+  height: 24px;
+}
+
+.frame-img-card-item {
+  display: flex;
+  padding: 16px 16px 0px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  background: var(--White-color);
+  /* flex-shrink: 0; */
+}
+.link-img-card-item {
+  width:  234px;
+}
+.img-card-item {
+  height: 200px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: var(--Tcontainer-color);
+  /* flex-shrink: 0; */
+  width: 100%;
+  object-fit: cover;
+}
+
+.frame-in-icon-favorite {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-favorite {
+  width: 20px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: var(--Poutline-color);
+}
+
+.card-text-field {
+  align-items: start;
+  background-color: var(--White-color);
+  display: flex;
+  width: 100%;
+  padding-bottom: 24px;
+  flex-direction: column;
+}
+
+.card-item-context {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  align-items: flex-end;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.card-item-name {
+  color: var(--Default-text);
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  font: 400 14px/20px Kanit, -apple-system, Roboto, Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  height: 40px;
+  align-self: stretch;
+}
+
+.card-item-province {
+  color: var(--Des-color);
+  color: var(--Des-color);
+  font-family: Kanit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.card-item-line-frame {
+  display: flex;
+  width: 266px;
+  align-items: center;
+  background: var(--OutlineVariant-color);
+}
+
+.card-item-line {
+  height: 1px;
+  flex: 1 0 0;
+  background: var(--OutlineVariant-color);
+}
+
+.card-item-price {
+  color: var(--Default-text);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  margin: 0 0 0 2px;
+  font: 700 14px/143% Kanit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.card-item-credit-context {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.card-item-credit-price {
+  color: var(--Default-text);
+  /* valueList */
+  font-family: Kanit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.5px;
+}
+
+.card-item-credit-carbon {
+  color: var(--Soutline-color);
+  text-align: right;
+  /* subtitle */
+  font-family: Kanit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.1px;
+}

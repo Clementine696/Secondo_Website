@@ -1,0 +1,5 @@
+.divider-vent {
+  align-self: stretch;
+  width: 1px;
+  background-color: var(--OutlineVariant-color);
+}

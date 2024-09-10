@@ -1,0 +1,89 @@
+.item-fav {
+    display: flex;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.item-fav-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.img-fav {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.fav-title-seller-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.title-product-fav {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+div.title-product-fav {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    flex: 1 0 0;
+}
+
+p.seller-product-fav {
+    color: var(--Outline-color);
+}
+
+.status-product {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.status-color.green {
+    background-color: var(--Correct-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.status-color.red {
+    background-color: var(--Error-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.button-section {
+    min-width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-fav {
+    display: flex;
+    padding: 0;
+    min-width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--SurfaceBright-color);
+    border: none;
+}
+
+.btn-fav-icon {
+    width: 24px;
+    height: 24px;
+}
